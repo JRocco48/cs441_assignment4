@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2925EA852231B87D0060F67D /* player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925EA842231B87D0060F67D /* player.swift */; };
 		293982E7223077D900CA2288 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293982E6223077D900CA2288 /* AppDelegate.swift */; };
 		293982E9223077D900CA2288 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293982E8223077D900CA2288 /* ViewController.swift */; };
 		293982EC223077D900CA2288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293982EA223077D900CA2288 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2925EA842231B87D0060F67D /* player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = player.swift; sourceTree = "<group>"; };
 		293982E3223077D900CA2288 /* Dungeon Descent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dungeon Descent.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		293982E6223077D900CA2288 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		293982E8223077D900CA2288 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				293982ED223077D900CA2288 /* Assets.xcassets */,
 				293982EF223077D900CA2288 /* LaunchScreen.storyboard */,
 				293982F2223077D900CA2288 /* Info.plist */,
+				2925EA842231B87D0060F67D /* player.swift */,
 			);
 			path = "Dungeon Descent";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				293982E9223077D900CA2288 /* ViewController.swift in Sources */,
+				2925EA852231B87D0060F67D /* player.swift in Sources */,
 				293982E7223077D900CA2288 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				293982F7223077D900CA2288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
