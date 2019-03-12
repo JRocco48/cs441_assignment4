@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="17G5019" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -588,16 +588,72 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sudoku Solver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="its-br-C8Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sudoku" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="217" translatesAutoresizingMaskIntoConstraints="NO" id="its-br-C8Z">
                                 <rect key="frame" x="80" y="67" width="214" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="cell0" destination="HIK-dF-roH" id="7vD-Hv-kGD"/>
+                        <outlet property="cell1" destination="4uR-Cd-HhJ" id="iVV-TH-cNF"/>
+                        <outlet property="cell10" destination="A7X-fb-elU" id="cmW-gT-IDf"/>
+                        <outlet property="cell11" destination="IUX-EK-wrZ" id="5TG-0k-Q7j"/>
+                        <outlet property="cell12" destination="f3D-Vn-csj" id="PrE-Fa-7ls"/>
+                        <outlet property="cell13" destination="51c-Ay-q0c" id="Bux-XE-enz"/>
+                        <outlet property="cell14" destination="dYY-o3-npb" id="jc5-Wy-XFF"/>
+                        <outlet property="cell15" destination="FdC-Fi-Z1K" id="t90-2d-FFh"/>
+                        <outlet property="cell16" destination="Zji-V7-ldL" id="jiJ-uf-BLO"/>
+                        <outlet property="cell17" destination="GXQ-fd-vlq" id="4iO-4O-v9t"/>
+                        <outlet property="cell18" destination="VJh-ta-w9g" id="nrf-mv-PAb"/>
+                        <outlet property="cell19" destination="qc4-Uw-zPZ" id="Pnh-u1-rOu"/>
+                        <outlet property="cell2" destination="RlQ-su-bG0" id="wnx-RV-hOv"/>
+                        <outlet property="cell20" destination="tnE-S2-Rlh" id="Xlx-7b-DQZ"/>
+                        <outlet property="cell21" destination="l19-cn-rzI" id="daC-cC-tQe"/>
+                        <outlet property="cell22" destination="owL-9S-qbe" id="iPL-KZ-gcA"/>
+                        <outlet property="cell23" destination="xHt-cd-7VY" id="C1d-vu-WEG"/>
+                        <outlet property="cell24" destination="aVj-0e-dtD" id="tyZ-rN-Ig3"/>
+                        <outlet property="cell25" destination="sak-e4-kuv" id="ffR-xo-Cgq"/>
+                        <outlet property="cell26" destination="6Kx-wP-hEH" id="Hyq-qU-rto"/>
+                        <outlet property="cell27" destination="Kx8-Gu-E6e" id="scO-hD-uXU"/>
+                        <outlet property="cell28" destination="LLv-EL-jLL" id="O09-Vw-4uc"/>
+                        <outlet property="cell29" destination="vyE-Ra-z1u" id="xoI-2z-wD3"/>
+                        <outlet property="cell3" destination="vx2-ya-JB7" id="Umo-v8-dSV"/>
+                        <outlet property="cell30" destination="Wr2-0y-NSv" id="v9b-6B-Vtz"/>
+                        <outlet property="cell31" destination="nSf-x1-uRi" id="FlB-rv-n8A"/>
+                        <outlet property="cell32" destination="q89-8c-Nav" id="Flo-eL-OfQ"/>
+                        <outlet property="cell33" destination="EoO-4c-oP3" id="uFE-YW-JbW"/>
+                        <outlet property="cell34" destination="38a-2H-9cU" id="3Ot-2N-AkU"/>
+                        <outlet property="cell35" destination="yow-JE-uvq" id="uA0-fv-bLF"/>
+                        <outlet property="cell36" destination="KJe-hk-2UO" id="rPz-dp-I8B"/>
+                        <outlet property="cell37" destination="wHD-is-Ocn" id="Frp-Mn-dud"/>
+                        <outlet property="cell38" destination="MeM-yy-WLJ" id="nJ0-bG-wRJ"/>
+                        <outlet property="cell39" destination="0Hj-eY-Pr5" id="Odm-zw-smz"/>
+                        <outlet property="cell4" destination="UoJ-Yg-WhR" id="9sf-iK-Hk9"/>
+                        <outlet property="cell40" destination="v6i-CW-K1X" id="1w1-CI-AgX"/>
+                        <outlet property="cell41" destination="whk-dB-M3b" id="kfH-AN-wbg"/>
+                        <outlet property="cell42" destination="zE5-Sp-AY1" id="c2C-DY-FKf"/>
+                        <outlet property="cell43" destination="0P1-9Z-kdf" id="xes-NA-62g"/>
+                        <outlet property="cell44" destination="hi8-HV-SF3" id="CAB-iX-rbx"/>
+                        <outlet property="cell45" destination="SCQ-kF-OU2" id="ftb-tD-efE"/>
+                        <outlet property="cell46" destination="y8w-7N-AO8" id="P8q-mt-qUA"/>
+                        <outlet property="cell47" destination="6ol-ef-uMy" id="2Y7-1E-Hti"/>
+                        <outlet property="cell48" destination="22z-ae-ZFp" id="g1x-8L-l1v"/>
+                        <outlet property="cell49" destination="pZ8-aX-xFy" id="QcS-pD-ZHp"/>
+                        <outlet property="cell5" destination="F7C-RN-ZEh" id="Ac0-Nx-5ki"/>
+                        <outlet property="cell50" destination="Z1i-w0-SyH" id="4Li-zd-fpc"/>
+                        <outlet property="cell51" destination="Yyg-hB-7Mw" id="knK-ga-Q6F"/>
+                        <outlet property="cell52" destination="LUi-Nf-LSa" id="p3S-dG-cKp"/>
+                        <outlet property="cell53" destination="L8l-8r-OQs" id="Q4o-Mw-m6n"/>
+                        <outlet property="cell6" destination="oG2-5Y-ruU" id="aOf-Vu-x1z"/>
+                        <outlet property="cell7" destination="xj1-TR-DdJ" id="TJD-Rd-4yq"/>
+                        <outlet property="cell8" destination="hQo-Lr-tZH" id="zcA-Br-VPE"/>
+                        <outlet property="cell9" destination="1xv-cl-Bce" id="Kvz-ao-baU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
