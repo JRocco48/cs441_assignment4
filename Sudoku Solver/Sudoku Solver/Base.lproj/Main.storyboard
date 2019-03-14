@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="17G5019" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -595,6 +595,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thd-Sf-Wke">
+                                <rect key="frame" x="153" y="516" width="68" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Solve">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="solveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yu6-BQ-a0B"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -649,10 +660,119 @@
                         <outlet property="cell51" destination="Yyg-hB-7Mw" id="knK-ga-Q6F"/>
                         <outlet property="cell52" destination="LUi-Nf-LSa" id="p3S-dG-cKp"/>
                         <outlet property="cell53" destination="L8l-8r-OQs" id="Q4o-Mw-m6n"/>
+                        <outlet property="cell54" destination="ZEx-lh-hlw" id="K1b-BD-IZ8"/>
+                        <outlet property="cell55" destination="qYD-rs-6Mv" id="1Ex-QR-Cen"/>
+                        <outlet property="cell56" destination="deo-oP-CxD" id="eS9-Ph-JLl"/>
+                        <outlet property="cell57" destination="DmO-WE-du0" id="0OK-Yq-yYi"/>
+                        <outlet property="cell58" destination="SsD-Lh-y1S" id="ZD0-3c-MWv"/>
+                        <outlet property="cell59" destination="CIg-VA-yJ3" id="fdd-Pj-ZOF"/>
                         <outlet property="cell6" destination="oG2-5Y-ruU" id="aOf-Vu-x1z"/>
+                        <outlet property="cell60" destination="MW2-Yb-FX6" id="cod-XV-f1y"/>
+                        <outlet property="cell61" destination="NBH-nJ-PQg" id="qS9-5G-ShP"/>
+                        <outlet property="cell62" destination="79k-Ta-mA1" id="Eib-GB-q6b"/>
+                        <outlet property="cell63" destination="t9R-4S-5ix" id="UB8-Hm-U3F"/>
+                        <outlet property="cell64" destination="iHj-d2-WnP" id="mVz-E8-9Q1"/>
+                        <outlet property="cell65" destination="TTg-a9-aOY" id="NlC-0Z-2Vq"/>
+                        <outlet property="cell66" destination="WfH-FR-hYX" id="ue9-Wr-qq8"/>
+                        <outlet property="cell67" destination="xos-q8-77q" id="d6n-s1-5Gr"/>
+                        <outlet property="cell68" destination="5Ri-RZ-vkv" id="C2F-iu-szG"/>
+                        <outlet property="cell69" destination="uFu-g3-3Hu" id="iMD-Ch-4dT"/>
                         <outlet property="cell7" destination="xj1-TR-DdJ" id="TJD-Rd-4yq"/>
+                        <outlet property="cell70" destination="TVk-5M-boP" id="Q8u-Y4-qMd"/>
+                        <outlet property="cell71" destination="jVm-Hv-zgW" id="ksH-NC-Eqe"/>
+                        <outlet property="cell72" destination="dyV-zj-Sgl" id="xGT-4k-Q9a"/>
+                        <outlet property="cell73" destination="FEk-bK-w0I" id="7yO-TW-s46"/>
+                        <outlet property="cell74" destination="t2t-mb-eZm" id="G3s-ls-5rb"/>
+                        <outlet property="cell75" destination="uuK-os-1BK" id="7Jt-9o-Kfw"/>
+                        <outlet property="cell76" destination="Kvg-Ae-h9E" id="bWm-WL-PKz"/>
+                        <outlet property="cell77" destination="Gue-du-qaa" id="oPG-uI-27F"/>
+                        <outlet property="cell78" destination="1fp-5Q-vt6" id="1Q2-ud-fTa"/>
+                        <outlet property="cell79" destination="yuZ-Ae-92o" id="I8C-WL-g71"/>
                         <outlet property="cell8" destination="hQo-Lr-tZH" id="zcA-Br-VPE"/>
+                        <outlet property="cell80" destination="iFr-jj-m6o" id="KXv-PL-myf"/>
                         <outlet property="cell9" destination="1xv-cl-Bce" id="Kvz-ao-baU"/>
+                        <outlet property="solveButton" destination="thd-Sf-Wke" id="GH1-uT-LH5"/>
+                        <outletCollection property="textFieldArray" destination="HIK-dF-roH" id="3As-UP-7w7"/>
+                        <outletCollection property="textFieldArray" destination="4uR-Cd-HhJ" id="Xcj-pI-fbu"/>
+                        <outletCollection property="textFieldArray" destination="RlQ-su-bG0" id="4f4-5d-IOv"/>
+                        <outletCollection property="textFieldArray" destination="vx2-ya-JB7" id="1nv-dx-twm"/>
+                        <outletCollection property="textFieldArray" destination="UoJ-Yg-WhR" id="Nxe-TL-wKw"/>
+                        <outletCollection property="textFieldArray" destination="F7C-RN-ZEh" id="fxI-IQ-qGw"/>
+                        <outletCollection property="textFieldArray" destination="oG2-5Y-ruU" id="832-lW-j0f"/>
+                        <outletCollection property="textFieldArray" destination="xj1-TR-DdJ" id="NQa-fy-yHW"/>
+                        <outletCollection property="textFieldArray" destination="hQo-Lr-tZH" id="Qec-lE-8gO"/>
+                        <outletCollection property="textFieldArray" destination="1xv-cl-Bce" id="QuI-UM-Ah6"/>
+                        <outletCollection property="textFieldArray" destination="A7X-fb-elU" id="lRH-2J-eyr"/>
+                        <outletCollection property="textFieldArray" destination="IUX-EK-wrZ" id="cMC-oc-l4o"/>
+                        <outletCollection property="textFieldArray" destination="f3D-Vn-csj" id="vBv-Ld-gxG"/>
+                        <outletCollection property="textFieldArray" destination="51c-Ay-q0c" id="zTd-TM-Oep"/>
+                        <outletCollection property="textFieldArray" destination="dYY-o3-npb" id="uiT-Fu-4rB"/>
+                        <outletCollection property="textFieldArray" destination="FdC-Fi-Z1K" id="sFz-E6-F31"/>
+                        <outletCollection property="textFieldArray" destination="Zji-V7-ldL" id="eJZ-Wd-BXa"/>
+                        <outletCollection property="textFieldArray" destination="GXQ-fd-vlq" id="WJQ-9r-DFI"/>
+                        <outletCollection property="textFieldArray" destination="VJh-ta-w9g" id="Qzn-4p-buP"/>
+                        <outletCollection property="textFieldArray" destination="qc4-Uw-zPZ" id="mdZ-wd-sXF"/>
+                        <outletCollection property="textFieldArray" destination="tnE-S2-Rlh" id="rJZ-eA-rK7"/>
+                        <outletCollection property="textFieldArray" destination="l19-cn-rzI" id="D1s-38-Goq"/>
+                        <outletCollection property="textFieldArray" destination="owL-9S-qbe" id="bez-LA-i9G"/>
+                        <outletCollection property="textFieldArray" destination="xHt-cd-7VY" id="cAI-Zh-Pee"/>
+                        <outletCollection property="textFieldArray" destination="aVj-0e-dtD" id="mKV-9Z-1Qr"/>
+                        <outletCollection property="textFieldArray" destination="sak-e4-kuv" id="h87-vD-CiE"/>
+                        <outletCollection property="textFieldArray" destination="6Kx-wP-hEH" id="JPQ-lO-5de"/>
+                        <outletCollection property="textFieldArray" destination="Kx8-Gu-E6e" id="m5q-Hq-k86"/>
+                        <outletCollection property="textFieldArray" destination="LLv-EL-jLL" id="eho-mU-NXq"/>
+                        <outletCollection property="textFieldArray" destination="vyE-Ra-z1u" id="oBZ-VQ-9cf"/>
+                        <outletCollection property="textFieldArray" destination="Wr2-0y-NSv" id="A09-Jd-twL"/>
+                        <outletCollection property="textFieldArray" destination="nSf-x1-uRi" id="eeS-mb-8ZT"/>
+                        <outletCollection property="textFieldArray" destination="q89-8c-Nav" id="P2K-JR-K9m"/>
+                        <outletCollection property="textFieldArray" destination="EoO-4c-oP3" id="y4N-Dj-pjw"/>
+                        <outletCollection property="textFieldArray" destination="38a-2H-9cU" id="XlY-0H-DiH"/>
+                        <outletCollection property="textFieldArray" destination="yow-JE-uvq" id="jd1-aX-uEA"/>
+                        <outletCollection property="textFieldArray" destination="KJe-hk-2UO" id="rLD-Is-BVq"/>
+                        <outletCollection property="textFieldArray" destination="wHD-is-Ocn" id="m7j-5t-qba"/>
+                        <outletCollection property="textFieldArray" destination="MeM-yy-WLJ" id="VEZ-uB-uaL"/>
+                        <outletCollection property="textFieldArray" destination="0Hj-eY-Pr5" id="fTe-7h-3a9"/>
+                        <outletCollection property="textFieldArray" destination="v6i-CW-K1X" id="rNv-j4-QJP"/>
+                        <outletCollection property="textFieldArray" destination="whk-dB-M3b" id="gce-Sd-tiB"/>
+                        <outletCollection property="textFieldArray" destination="zE5-Sp-AY1" id="QkK-EF-nNV"/>
+                        <outletCollection property="textFieldArray" destination="0P1-9Z-kdf" id="9eB-hX-u7C"/>
+                        <outletCollection property="textFieldArray" destination="hi8-HV-SF3" id="DQF-jB-k5h"/>
+                        <outletCollection property="textFieldArray" destination="SCQ-kF-OU2" id="1eT-fA-fzc"/>
+                        <outletCollection property="textFieldArray" destination="y8w-7N-AO8" id="NLc-Oe-Rrk"/>
+                        <outletCollection property="textFieldArray" destination="6ol-ef-uMy" id="VG0-b1-xnK"/>
+                        <outletCollection property="textFieldArray" destination="22z-ae-ZFp" id="7gc-2a-iGw"/>
+                        <outletCollection property="textFieldArray" destination="pZ8-aX-xFy" id="IGE-gM-VHL"/>
+                        <outletCollection property="textFieldArray" destination="Z1i-w0-SyH" id="xFN-hC-Cim"/>
+                        <outletCollection property="textFieldArray" destination="Yyg-hB-7Mw" id="VtV-cI-Z3x"/>
+                        <outletCollection property="textFieldArray" destination="LUi-Nf-LSa" id="mfv-ky-ZK1"/>
+                        <outletCollection property="textFieldArray" destination="L8l-8r-OQs" id="qe0-rl-b0i"/>
+                        <outletCollection property="textFieldArray" destination="ZEx-lh-hlw" id="iP1-8U-wE4"/>
+                        <outletCollection property="textFieldArray" destination="qYD-rs-6Mv" id="5jX-mX-jdo"/>
+                        <outletCollection property="textFieldArray" destination="deo-oP-CxD" id="vTN-bs-xHH"/>
+                        <outletCollection property="textFieldArray" destination="DmO-WE-du0" id="Qb5-r8-qtH"/>
+                        <outletCollection property="textFieldArray" destination="SsD-Lh-y1S" id="Ipq-tH-EIV"/>
+                        <outletCollection property="textFieldArray" destination="CIg-VA-yJ3" id="zXf-Ip-Psw"/>
+                        <outletCollection property="textFieldArray" destination="MW2-Yb-FX6" id="YIH-X3-O6E"/>
+                        <outletCollection property="textFieldArray" destination="NBH-nJ-PQg" id="rlV-Jd-f9Z"/>
+                        <outletCollection property="textFieldArray" destination="79k-Ta-mA1" id="jnz-aZ-9HF"/>
+                        <outletCollection property="textFieldArray" destination="t9R-4S-5ix" id="joW-7G-msb"/>
+                        <outletCollection property="textFieldArray" destination="iHj-d2-WnP" id="76H-qe-vi0"/>
+                        <outletCollection property="textFieldArray" destination="TTg-a9-aOY" id="nqX-iS-U5f"/>
+                        <outletCollection property="textFieldArray" destination="WfH-FR-hYX" id="wEW-Sk-g7g"/>
+                        <outletCollection property="textFieldArray" destination="xos-q8-77q" id="Esh-PE-sAz"/>
+                        <outletCollection property="textFieldArray" destination="5Ri-RZ-vkv" id="WCH-q6-LsO"/>
+                        <outletCollection property="textFieldArray" destination="uFu-g3-3Hu" id="hW0-CR-4Kb"/>
+                        <outletCollection property="textFieldArray" destination="TVk-5M-boP" id="2CI-UQ-P4h"/>
+                        <outletCollection property="textFieldArray" destination="jVm-Hv-zgW" id="sLa-h4-A9i"/>
+                        <outletCollection property="textFieldArray" destination="dyV-zj-Sgl" id="Lg8-74-9qc"/>
+                        <outletCollection property="textFieldArray" destination="FEk-bK-w0I" id="XB3-RE-duF"/>
+                        <outletCollection property="textFieldArray" destination="t2t-mb-eZm" id="mTd-0g-pew"/>
+                        <outletCollection property="textFieldArray" destination="uuK-os-1BK" id="Sod-vL-eLC"/>
+                        <outletCollection property="textFieldArray" destination="Kvg-Ae-h9E" id="VSw-Jv-lat"/>
+                        <outletCollection property="textFieldArray" destination="Gue-du-qaa" id="BFt-Pf-fKj"/>
+                        <outletCollection property="textFieldArray" destination="1fp-5Q-vt6" id="9JJ-kR-tUR"/>
+                        <outletCollection property="textFieldArray" destination="yuZ-Ae-92o" id="QIq-xI-H2b"/>
+                        <outletCollection property="textFieldArray" destination="iFr-jj-m6o" id="cSv-qa-0Hb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
