@@ -109,7 +109,14 @@ NSArray * textFieldArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    textFieldArray = [_cell0, _cell1, _cell2, _cell3, _cell4, _cell5];
+    textFieldArray = [[NSMutableArray alloc] initWithObjects: _cell0, _cell1, _cell2, _cell3, _cell4, _cell5, _cell6, _cell7, _cell8, _cell9,
+                      _cell10, _cell11, _cell12, _cell13, _cell14, _cell15, _cell16, _cell17, _cell18, _cell19,
+                      _cell20, _cell21, _cell22, _cell23, _cell24, _cell25, _cell26, _cell27, _cell28, _cell29,
+                      _cell30, _cell31, _cell32, _cell33, _cell34, _cell35, _cell36, _cell37, _cell38, _cell39,
+                      _cell40, _cell41, _cell42, _cell43, _cell44, _cell45, _cell46, _cell47, _cell48, _cell49,
+                      _cell50, _cell51, _cell52, _cell53, _cell54, _cell55, _cell56, _cell57, _cell58, _cell59,
+                      _cell60, _cell61, _cell62, _cell63, _cell64, _cell65, _cell66, _cell67, _cell68, _cell69,
+                      _cell70, _cell71, _cell72, _cell73, _cell74, _cell75, _cell76, _cell77, _cell78, _cell79, _cell80 ] ;
 }
 
 - (bool)isValid:(int) value ind:(int) index {
